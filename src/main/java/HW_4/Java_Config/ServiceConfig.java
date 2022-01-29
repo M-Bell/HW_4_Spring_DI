@@ -7,12 +7,12 @@ import org.springframework.context.annotation.Configuration;
 public class ServiceConfig {
 
     @Bean
-    PlusServiceJava plusServiceJava() {
-        return new PlusServiceJava();
+    PlusService plusServiceJava() {
+        return new PlusService();
     }
 
     @Bean
-    MinusServiceJava minusServiceJava() {
-        return new MinusServiceJava();
+    MinusService minusServiceJava() {
+        return new MinusService();
     }
 }

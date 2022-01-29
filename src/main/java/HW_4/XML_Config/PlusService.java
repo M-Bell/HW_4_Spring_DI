@@ -1,6 +1,6 @@
-package HW_4.Java_Config;
+package HW_4.XML_Config;
 
-public class PlusServiceJava {
+public class PlusService {
     int add(int a, int b) {
         return a + b;
     }
