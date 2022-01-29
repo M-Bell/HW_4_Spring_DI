@@ -1,4 +1,4 @@
-package HW_4.Java_Config;
+package HW_4.Java_Config_Service;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

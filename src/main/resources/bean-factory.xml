@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <beans>
-        <bean id="plusService" class="HW_4.XML_Config.PlusService"/>
-        <bean id="minusService" class="HW_4.XML_Config.MinusService"/>
+        <bean id="plusService" class="HW_4.XML_Config_Service.PlusService"/>
+        <bean id="minusService" class="HW_4.XML_Config_Service.MinusService"/>
     </beans>
 </beans>
