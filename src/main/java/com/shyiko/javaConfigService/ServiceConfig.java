@@ -1,4 +1,4 @@
-package HW_4.Java_Config_Service;
+package com.shyiko.javaConfigService;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

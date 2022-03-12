@@ -1,4 +1,4 @@
-package HW_4.Annotation_Config_Service;
+package com.shyiko.annotationConfigService;
 
 import org.springframework.stereotype.Component;
 

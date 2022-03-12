@@ -1,4 +1,4 @@
-package HW_4.Java_Config_Service;
+package com.shyiko.javaConfigService;
 
 public class PlusService {
     int add(int a, int b) {
