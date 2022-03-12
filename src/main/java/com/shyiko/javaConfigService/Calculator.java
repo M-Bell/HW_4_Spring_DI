@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public record Calculator(int a, int b) {
 
     public void run() {
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext("HW_4.Java_Config");
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext("com.shyiko.javaConfigService");
 
         if (a > b) {
             MinusService minusService = (MinusService) applicationContext.getBean("minusServiceJava");

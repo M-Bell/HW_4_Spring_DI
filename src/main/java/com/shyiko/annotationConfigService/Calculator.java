@@ -7,7 +7,7 @@ public record Calculator(int a, int b) {
 
     public void run() {
 
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext("HW_4.Annotation_Config");
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext("com.shyiko.annotationConfigService");
 
         if (a > b) {
             System.out.println(a + " - " + b + " = " + applicationContext.getBean(MinusService.class).subtract(a, b));
